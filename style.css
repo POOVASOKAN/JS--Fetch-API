@@ -3,21 +3,21 @@
   padding: 0;
 }
 body {
-  display: flex;
+  display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start !important;
   background-color: #212c36 !important;
 }
 .card {
   margin-top: 120px;
   margin-left: 30px;
-  width: 400px;
-  height: 400px auto;
+  width: 400px !important;
+  height: 400px auto !important;
   border: 2px solid white !important;
   background-color: #212c36 !important;
-  box-shadow: rgba(235, 244, 245, 0.4) 0px 2px 4px,
+  box-shadow: rgba(103, 130, 133, 0.4) 0px 2px 4px,
     rgba(235, 244, 245, 0.3) 0px 7px 13px -3px,
     rgba(235, 244, 245, 0.2) 0px -3px 0px inset;
 
@@ -56,4 +56,7 @@ p {
   height: 300px;
   border-radius: 50% !important;
   padding: 20px;
+}
+h1{
+    color:#212c36 !important ;
 }
